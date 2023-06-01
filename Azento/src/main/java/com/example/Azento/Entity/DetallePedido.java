@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "DetallesPedidos")
+@Table(name = "Azento_DetallesPedidos")
 public class DetallePedido {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,7 +19,7 @@ public class DetallePedido {
 
     @ManyToOne
     @JoinColumn(name = "IDProducto")
-    private Producto producto;
+    private ProductoEntity producto;
 
     @ManyToOne
     @JoinColumn(name = "IDTalla")

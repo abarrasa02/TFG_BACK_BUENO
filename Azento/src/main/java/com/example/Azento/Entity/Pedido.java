@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 @Data
 @Entity
-@Table(name = "Pedidos")
+@Table(name = "Azento_Pedidos")
 public class Pedido {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

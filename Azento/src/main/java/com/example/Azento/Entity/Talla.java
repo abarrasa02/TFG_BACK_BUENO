@@ -5,11 +5,12 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "Tallas")
+@Table(name = "Azento_Tallas")
 public class Talla {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column
     private String talla;
 
 

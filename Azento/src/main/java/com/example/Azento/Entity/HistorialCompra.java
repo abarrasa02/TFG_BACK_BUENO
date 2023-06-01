@@ -3,7 +3,7 @@ package com.example.Azento.Entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "HistorialCompras")
+@Table(name = "Azento_HistorialCompras")
 public class HistorialCompra {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
